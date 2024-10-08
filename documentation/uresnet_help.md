@@ -1,3 +1,4 @@
+```markdown
 Help on class UResNet in module spine.model.layer.cnn.uresnet_layers:
 
 class UResNet(torch.nn.modules.module.Module)
@@ -1018,3 +1019,6 @@ class UResNet(torch.nn.modules.module.Module)
  |  call_super_init = False
  |  
  |  dump_patches = False
+
+
+```
