@@ -33,6 +33,8 @@ python /home/azam/spine_bilal/spine/bin/run.py -c /home/azam/spine_bilal/spine_p
 # To open ROOT in Apptainer
 apptainer exec --nv --bind /lus/eagle:/mnt/eagle /lus/eagle/clone/g2/projects/Nu_Novel/larcv2_ub22.04-cuda12.1-pytorch2.4.0-larndsim.sif /bin/bash
 
+# See file size
+du -ah /home/azam/spine_bilal/small_2x2_output.h5
 ######################
 
 # Appendix 1
