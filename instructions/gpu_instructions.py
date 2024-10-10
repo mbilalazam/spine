@@ -24,7 +24,7 @@ apptainer exec --nv --bind /lus/eagle:/mnt/eagle /lus/eagle/clone/g2/projects/Nu
 # Step 6: Set Up SSH Tunnel from Local Machine
 ssh -L 8899:localhost:8899 azam@polaris.alcf.anl.gov -t ssh x3005c0s1b0n0 -L 8899:localhost:8899
 
-ssh -L 8899:localhost:8899 azam@polaris.alcf.anl.gov -t ssh x3005c0s13b0n0 -L 8899:localhost:8899
+ssh -L 8899:localhost:8899 azam@polaris.alcf.anl.gov -t ssh x3201c0s37b0n0 -L 8899:localhost:8899
 
 
 # Step 7: File paths
